@@ -3,6 +3,10 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
+small {
+  font-size: 50%;
+}
+
 .wrapper {
   background-color: white;
   border: 2px solid silver;

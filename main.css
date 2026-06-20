@@ -1,0 +1,68 @@
+body {
+  background-color: bisque;
+  font-family: "Roboto Slab", serif;
+}
+
+.wrapper {
+  background-color: white;
+  border: 2px solid silver;
+
+}
+
+header {
+  background-color: beige;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3em;
+  font-family: "Bitcount prop single", serif;
+}
+header h2 {
+  font-size: 2em;
+  color: gray;
+  font-family: "Bitcount prop single", serif;
+}
+
+header figure {
+  width: 230px;
+  text-align: center;
+  margin-left: 3em;
+}
+header img {
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-bottom: .5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+  line-height: 1.4;
+  padding: 1em 0 0 0;
+}
+
+footer {
+  background-color: beige;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  font-size: 1.3em;
+  color: gray;
+}
+
+footer a:hover {
+  color: blue;
+  text-shadow: 0 0 5px;
+}
